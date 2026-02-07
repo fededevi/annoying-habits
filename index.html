@@ -196,23 +196,23 @@
 <body>
     <div class="container">
         <header>
-            <h1>😂 Absurd Annoying Habits</h1>
-            <p class="subtitle">Contradictory & Impossible Standards (Satire)</p>
+            <h1>Annoying Habits Study</h1>
+            <p class="subtitle">Documented Behaviors Women Find Annoying in Men</p>
         </header>
 
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search habits... (e.g., 'car', 'beard', 'tall')">
+            <input type="text" id="searchInput" placeholder="Search behaviors...">
         </div>
 
         <div class="content">
             <div class="stats">
                 <div class="stat-item">
                     <div class="stat-number" id="totalHabits">0</div>
-                    <div class="stat-label">Total Habits</div>
+                    <div class="stat-label">Total Behaviors</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number" id="displayedHabits">0</div>
-                    <div class="stat-label">Displayed</div>
+                    <div class="stat-label">Currently Displayed</div>
                 </div>
             </div>
 
@@ -220,9 +220,8 @@
         </div>
 
         <footer>
-            <p><strong>⚠️ SATIRE:</strong> This is humorous content highlighting contradictory and impossible standards.</p>
-            <p class="note">Not meant to be taken seriously. Just for laughs! 😄</p>
-            <p class="note">Last updated: <span id="lastUpdated"></span></p>
+            <p><strong>Note:</strong> Data compiled from various sources and observations.</p>
+            <p class="note">Study last updated: <span id="lastUpdated"></span></p>
         </footer>
     </div>
 
@@ -250,8 +249,8 @@
             if (habits.length === 0) {
                 container.innerHTML = `
                     <div class="no-results">
-                        <h2>No habits found</h2>
-                        <p>Try a different search term</p>
+                        <h2>No behaviors found</h2>
+                        <p>Try adjusting your search criteria</p>
                     </div>
                 `;
                 return;

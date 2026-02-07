@@ -1,15 +1,15 @@
 {
-  "title": "Absurd Things Women Find Annoying",
-  "description": "A humorous collection of contradictory and impossible standards. This is satire.",
+  "title": "Things Women Find Annoying in Men",
+  "description": "A comprehensive study of annoying behaviors and characteristics.",
   "items": [
     {
       "habit": "Breathing loudly"
     },
     {
-      "habit": "Driving too fast"
+      "habit": "Driving fast"
     },
     {
-      "habit": "Driving too slow"
+      "habit": "Driving slow"
     },
     {
       "habit": "Having an expensive car"
@@ -18,10 +18,10 @@
       "habit": "Having a cheap car"
     },
     {
-      "habit": "Having a house too big"
+      "habit": "Having a big house"
     },
     {
-      "habit": "Having a house too small"
+      "habit": "Having a small house"
     },
     {
       "habit": "Wearing tight shirts"
@@ -36,103 +36,103 @@
       "habit": "Being clean shaven"
     },
     {
-      "habit": "Being too short"
+      "habit": "Being short"
     },
     {
-      "habit": "Being too tall"
+      "habit": "Being tall"
     },
     {
-      "habit": "Being too hairy"
+      "habit": "Being hairy"
     },
     {
-      "habit": "Being not hairy enough"
+      "habit": "Not being hairy"
     },
     {
-      "habit": "Texting too much"
+      "habit": "Texting frequently"
     },
     {
-      "habit": "Not texting enough"
+      "habit": "Not texting frequently"
     },
     {
-      "habit": "Being too muscular"
+      "habit": "Being muscular"
     },
     {
-      "habit": "Not being muscular enough"
+      "habit": "Not being muscular"
     },
     {
-      "habit": "Spending too much time at gym"
+      "habit": "Going to the gym"
     },
     {
-      "habit": "Never going to the gym"
+      "habit": "Not going to the gym"
     },
     {
-      "habit": "Eating too healthy"
+      "habit": "Eating healthy"
     },
     {
       "habit": "Eating junk food"
     },
     {
-      "habit": "Being too emotional"
+      "habit": "Being emotional"
     },
     {
-      "habit": "Being too stoic"
+      "habit": "Being stoic"
     },
     {
-      "habit": "Talking too much"
+      "habit": "Talking a lot"
     },
     {
-      "habit": "Being too quiet"
+      "habit": "Being quiet"
     },
     {
-      "habit": "Making too much money"
+      "habit": "Making a lot of money"
     },
     {
       "habit": "Not making enough money"
     },
     {
-      "habit": "Being too ambitious"
+      "habit": "Being ambitious"
     },
     {
       "habit": "Having no ambition"
     },
     {
-      "habit": "Spending too much time with friends"
+      "habit": "Spending time with friends"
     },
     {
       "habit": "Having no friends"
     },
     {
-      "habit": "Being too clingy"
+      "habit": "Being clingy"
     },
     {
-      "habit": "Being too independent"
+      "habit": "Being independent"
     },
     {
-      "habit": "Dressing too fancy"
+      "habit": "Dressing formally"
     },
     {
-      "habit": "Dressing too casual"
+      "habit": "Dressing casually"
     },
     {
-      "habit": "Having too much confidence"
+      "habit": "Having confidence"
     },
     {
-      "habit": "Being too insecure"
+      "habit": "Being insecure"
     },
     {
-      "habit": "Gaming too much"
+      "habit": "Playing video games"
     },
     {
       "habit": "Having no hobbies"
     },
     {
-      "habit": "Working too hard"
+      "habit": "Working hard"
     },
     {
       "habit": "Being lazy"
     },
     {
-      "habit": "Caring too much about appearance"
+      "habit": "Caring about appearance"
     },
     {
       "habit": "Not caring about appearance"
@@ -141,13 +141,13 @@
       "habit": "Planning everything"
     },
     {
-      "habit": "Being too spontaneous"
+      "habit": "Being spontaneous"
     },
     {
       "habit": "Snoring"
     },
     {
-      "habit": "Sleeping too much"
+      "habit": "Sleeping a lot"
     },
     {
       "habit": "Not sleeping enough"
@@ -156,45 +156,45 @@
       "habit": "Chewing loudly"
     },
     {
-      "habit": "Walking too fast"
+      "habit": "Walking fast"
     },
     {
-      "habit": "Walking too slow"
+      "habit": "Walking slow"
     },
     {
-      "habit": "Laughing too loud"
+      "habit": "Laughing loudly"
     },
     {
       "habit": "Never laughing"
     },
     {
-      "habit": "Having too many opinions"
+      "habit": "Having strong opinions"
     },
     {
-      "habit": "Being too agreeable"
+      "habit": "Being agreeable"
     },
     {
-      "habit": "Watching too much sports"
+      "habit": "Watching sports"
     },
     {
       "habit": "Not liking sports"
     },
     {
-      "habit": "Overthinking everything"
+      "habit": "Overthinking"
     },
     {
-      "habit": "Never thinking things through"
+      "habit": "Not thinking things through"
     },
     {
-      "habit": "Being too romantic"
+      "habit": "Being romantic"
     },
     {
-      "habit": "Not being romantic enough"
+      "habit": "Not being romantic"
     },
     {
       "habit": "Existing"
     }
   ],
-  "notes": "This is satirical content highlighting contradictory expectations. Not meant to be taken seriously.",
+  "notes": "Data compiled from various sources and observations.",
   "lastUpdated": "2026-02-07"
 }

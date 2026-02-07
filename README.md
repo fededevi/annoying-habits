@@ -1,41 +1,34 @@
-# Absurd Annoying Habits
+# Annoying Habits Study
 
-A humorous, satirical collection of contradictory and impossible standards. Because apparently, everything is annoying! 😂
+A comprehensive documentation of behaviors and characteristics that women find annoying in men.
 
 ## 🌐 Live Demo
 
-Visit the live site: **https://fededevi.github.io/annoying-habits/**
+Visit the study: **https://fededevi.github.io/annoying-habits/**
 
 ## 📊 About
 
-This is a **satirical project** that highlights the absurdity of contradictory expectations by listing opposing things as equally "annoying":
-- Driving too fast vs. driving too slow
-- Being too tall vs. being too short  
-- Having an expensive car vs. having a cheap car
-- Being too ambitious vs. having no ambition
-- And many more impossible-to-satisfy pairs!
-
-**This is humor. Not meant to be taken seriously.** 😄
+This project documents a wide range of behaviors and characteristics that have been identified as annoying. The data has been compiled from various observations and sources to provide a comprehensive reference.
 
 ## 🚀 Features
 
-- **Interactive Web UI**: Browse all absurd habits
-- **Search Functionality**: Filter by keywords
-- **Responsive Design**: Works on desktop and mobile
-- **Clean & Simple**: Just the funny contradictions, no fluff
+- **Interactive Interface**: Browse documented behaviors with a clean, professional interface
+- **Search Functionality**: Filter behaviors by keywords
+- **Real-time Statistics**: Track total and displayed behavior counts
+- **Responsive Design**: Accessible on desktop and mobile devices
 
 ## 📁 Project Structure
 
 ```
 annoying-habits/
-├── index.html      # Web UI
-├── data.json       # List of absurd habits
-└── README.md       # This file
+├── index.html      # Web interface
+├── data.json       # Behavior database
+└── README.md       # Documentation
 ```
 
 ## 🛠️ Local Development
 
-Simply open `index.html` in your browser, or serve with:
+Open `index.html` in your browser, or use a static server:
 
 ```bash
 # Using Python
@@ -47,14 +40,14 @@ npx serve
 
 ## 📝 Data Format
 
-Simple JSON structure:
+The behaviors are stored in `data.json`:
 
 ```json
 {
-  "title": "Absurd Things Women Find Annoying",
+  "title": "Things Women Find Annoying in Men",
   "items": [
     {
-      "habit": "Short, funny habit"
+      "habit": "Behavior description"
     }
   ]
 }
@@ -62,18 +55,15 @@ Simple JSON structure:
 
 ## 🤝 Contributing
 
-Got more absurd contradictions? PRs welcome! Keep them:
-- Short (1-5 words)
-- Funny
-- Contradictory to something already in the list (bonus points!)
+Contributions are welcome. To add behaviors:
 
-## ⚠️ Disclaimer
-
-**THIS IS SATIRE.** The whole point is to show how ridiculous contradictory expectations are. It's all in good fun!
+1. Fork the repository
+2. Update `data.json` with new entries
+3. Submit a pull request
 
 ## 📜 License
 
-MIT License - feel free to use and modify.
+MIT License
 
 ---
 
