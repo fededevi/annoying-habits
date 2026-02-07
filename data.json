@@ -793,5 +793,7 @@
     }
   ],
   "notes": "Data compiled from various sources and observations.",
-  "lastUpdated": "2026-02-07"
+  "lastUpdated": "2026-02-07",
+  "version": "2.0",
+  "totalItems": 263
 }
