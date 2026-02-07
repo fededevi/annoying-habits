@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Annoying Habits</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .search-container {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #searchInput:focus {
+            border-color: #667eea;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .habits-list {
+            display: grid;
+            gap: 20px;
+        }
+
+        .habit-card {
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s;
+            background: white;
+        }
+
+        .habit-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .habit-number {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .habit-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .habit-description {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .habit-reference {
+            font-size: 0.9em;
+            color: #718096;
+            padding: 10px;
+            background: #f7fafc;
+            border-left: 3px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .habit-reference strong {
+            color: #667eea;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .no-results h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            text-align: center;
+            color: #6c757d;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .note {
+            margin-top: 10px;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .container {
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Common Annoying Habits</h1>
+            <p class="subtitle">Things Women Often Find Frustrating in Men</p>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search habits... (e.g., 'communication', 'hygiene', 'listening')">
+        </div>
+
+        <div class="content">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalHabits">0</div>
+                    <div class="stat-label">Total Habits</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="displayedHabits">0</div>
+                    <div class="stat-label">Displayed</div>
+                </div>
+            </div>
+
+            <div class="habits-list" id="habitsList"></div>
+        </div>
+
+        <footer>
+            <p><strong>Note:</strong> This data is compiled from publicly available research, surveys, and online discussions.</p>
+            <p class="note">Individual experiences vary, and not all men exhibit these behaviors.</p>
+            <p class="note">Last updated: <span id="lastUpdated"></span></p>
+        </footer>
+    </div>
+
+    <script>
+        let allHabits = [];
+        let habitsData = {};
+
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                habitsData = await response.json();
+                allHabits = habitsData.items;
+                displayHabits(allHabits);
+                updateStats(allHabits.length, allHabits.length);
+                document.getElementById('lastUpdated').textContent = habitsData.lastUpdated;
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('habitsList').innerHTML = '<div class="no-results"><h2>Error loading data</h2></div>';
+            }
+        }
+
+        function displayHabits(habits) {
+            const container = document.getElementById('habitsList');
+            
+            if (habits.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <h2>No habits found</h2>
+                        <p>Try a different search term</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = habits.map((habit, index) => `
+                <div class="habit-card">
+                    <div class="habit-title">
+                        <span class="habit-number">${index + 1}</span>
+                        ${habit.habit}
+                    </div>
+                    <div class="habit-description">
+                        ${habit.description}
+                    </div>
+                    <div class="habit-reference">
+                        <strong>Reference:</strong> ${habit.reference}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateStats(total, displayed) {
+            document.getElementById('totalHabits').textContent = total;
+            document.getElementById('displayedHabits').textContent = displayed;
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            const filtered = allHabits.filter(habit => 
+                habit.habit.toLowerCase().includes(searchTerm) ||
+                habit.description.toLowerCase().includes(searchTerm) ||
+                habit.reference.toLowerCase().includes(searchTerm)
+            );
+
+            displayHabits(filtered);
+            updateStats(allHabits.length, filtered.length);
+        });
+
+        loadData();
+    </script>
+</body>
+</html>
