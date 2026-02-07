@@ -1,83 +1,200 @@
 {
-  "title": "Common Annoying Habits Women Notice in Men",
-  "description": "A collection of behaviors that many women find frustrating in their interactions with men, based on surveys, studies, and online discussions.",
+  "title": "Absurd Things Women Find Annoying",
+  "description": "A humorous collection of contradictory and impossible standards. This is satire.",
   "items": [
     {
-      "habit": "Not listening or interrupting frequently",
-      "description": "Cutting off conversations, not paying attention when someone is speaking, or waiting to talk rather than actively listening.",
-      "reference": "Psychology Today - Active Listening in Relationships, multiple relationship forums including Reddit r/AskWomen"
+      "habit": "Breathing loudly"
     },
     {
-      "habit": "Poor hygiene or grooming habits",
-      "description": "Neglecting basic personal care like showering regularly, oral hygiene, or wearing clean clothes.",
-      "reference": "Survey data from dating apps and relationship advice columns (e.g., Match.com surveys on dating deal-breakers)"
+      "habit": "Driving too fast"
     },
     {
-      "habit": "Mansplaining",
-      "description": "Explaining things in a condescending or patronizing way, especially topics the woman already knows about or has expertise in.",
-      "reference": "Term popularized by Rebecca Solnit's essay 'Men Explain Things to Me' (2008), widely discussed across media"
+      "habit": "Driving too slow"
     },
     {
-      "habit": "Not doing fair share of household chores",
-      "description": "Expecting partners to handle most domestic tasks or needing to be asked/reminded to contribute.",
-      "reference": "Pew Research Center studies on household labor division, sociological research on emotional labor"
+      "habit": "Having an expensive car"
     },
     {
-      "habit": "Poor communication about feelings",
-      "description": "Being emotionally unavailable, not expressing feelings clearly, or shutting down during important conversations.",
-      "reference": "John Gottman's relationship research, American Psychological Association articles on communication in relationships"
+      "habit": "Having a cheap car"
     },
     {
-      "habit": "Excessive bragging or self-centeredness",
-      "description": "Constantly talking about oneself, achievements, or possessions without showing interest in others.",
-      "reference": "Dating surveys and relationship psychology literature, common theme in advice columns"
+      "habit": "Having a house too big"
     },
     {
-      "habit": "Being glued to phone or screens",
-      "description": "Constantly checking phones during conversations or quality time, ignoring present company for digital devices.",
-      "reference": "Studies on technology and relationships, including research from University of Arizona on 'phubbing'"
+      "habit": "Having a house too small"
     },
     {
-      "habit": "Not planning or taking initiative",
-      "description": "Always expecting the partner to make plans, decisions, or handle logistics without contributing ideas or effort.",
-      "reference": "Research on emotional labor and mental load in relationships, discussed in 'Fed Up' by Gemma Hartley"
+      "habit": "Wearing tight shirts"
     },
     {
-      "habit": "Making misogynistic or sexist jokes",
-      "description": "Using humor that demeans women or relies on gender stereotypes, then dismissing concerns as 'just a joke'.",
-      "reference": "Social psychology research on benevolent and hostile sexism, widely discussed in feminist literature"
+      "habit": "Wearing loose shirts"
     },
     {
-      "habit": "Not respecting boundaries",
-      "description": "Pushing past stated limits, ignoring 'no', or making someone feel guilty for setting boundaries.",
-      "reference": "Consent education materials, relationship psychology research on healthy boundaries"
+      "habit": "Having a beard"
     },
     {
-      "habit": "Being overly jealous or controlling",
-      "description": "Exhibiting possessive behavior, checking up constantly, or trying to control who someone sees or what they wear.",
-      "reference": "Relationship psychology literature, resources on healthy vs unhealthy relationships from organizations like Love Is Respect"
+      "habit": "Being clean shaven"
     },
     {
-      "habit": "Leaving messes for others to clean",
-      "description": "Not cleaning up after oneself, leaving dishes in the sink, clothes on the floor, or expecting others to tidy up.",
-      "reference": "Common complaint in relationship forums, discussed in studies on domestic labor distribution"
+      "habit": "Being too short"
     },
     {
-      "habit": "Not remembering important dates or details",
-      "description": "Forgetting birthdays, anniversaries, or important information that's been shared multiple times.",
-      "reference": "Relationship advice literature, common theme in surveys about relationship frustrations"
+      "habit": "Being too tall"
     },
     {
-      "habit": "Unsolicited advice or trying to 'fix' everything",
-      "description": "Immediately jumping to solutions when someone just wants to vent or be heard, not respecting that venting is valid.",
-      "reference": "Deborah Tannen's work on gender and communication styles, relationship communication research"
+      "habit": "Being too hairy"
     },
     {
-      "habit": "Making everything a competition",
-      "description": "Turning conversations or activities into contests, one-upping stories, or needing to 'win' all the time.",
-      "reference": "Research on masculine socialization and competitiveness, relationship dynamics literature"
+      "habit": "Being not hairy enough"
+    },
+    {
+      "habit": "Texting too much"
+    },
+    {
+      "habit": "Not texting enough"
+    },
+    {
+      "habit": "Being too muscular"
+    },
+    {
+      "habit": "Not being muscular enough"
+    },
+    {
+      "habit": "Spending too much time at gym"
+    },
+    {
+      "habit": "Never going to the gym"
+    },
+    {
+      "habit": "Eating too healthy"
+    },
+    {
+      "habit": "Eating junk food"
+    },
+    {
+      "habit": "Being too emotional"
+    },
+    {
+      "habit": "Being too stoic"
+    },
+    {
+      "habit": "Talking too much"
+    },
+    {
+      "habit": "Being too quiet"
+    },
+    {
+      "habit": "Making too much money"
+    },
+    {
+      "habit": "Not making enough money"
+    },
+    {
+      "habit": "Being too ambitious"
+    },
+    {
+      "habit": "Having no ambition"
+    },
+    {
+      "habit": "Spending too much time with friends"
+    },
+    {
+      "habit": "Having no friends"
+    },
+    {
+      "habit": "Being too clingy"
+    },
+    {
+      "habit": "Being too independent"
+    },
+    {
+      "habit": "Dressing too fancy"
+    },
+    {
+      "habit": "Dressing too casual"
+    },
+    {
+      "habit": "Having too much confidence"
+    },
+    {
+      "habit": "Being too insecure"
+    },
+    {
+      "habit": "Gaming too much"
+    },
+    {
+      "habit": "Having no hobbies"
+    },
+    {
+      "habit": "Working too hard"
+    },
+    {
+      "habit": "Being lazy"
+    },
+    {
+      "habit": "Caring too much about appearance"
+    },
+    {
+      "habit": "Not caring about appearance"
+    },
+    {
+      "habit": "Planning everything"
+    },
+    {
+      "habit": "Being too spontaneous"
+    },
+    {
+      "habit": "Snoring"
+    },
+    {
+      "habit": "Sleeping too much"
+    },
+    {
+      "habit": "Not sleeping enough"
+    },
+    {
+      "habit": "Chewing loudly"
+    },
+    {
+      "habit": "Walking too fast"
+    },
+    {
+      "habit": "Walking too slow"
+    },
+    {
+      "habit": "Laughing too loud"
+    },
+    {
+      "habit": "Never laughing"
+    },
+    {
+      "habit": "Having too many opinions"
+    },
+    {
+      "habit": "Being too agreeable"
+    },
+    {
+      "habit": "Watching too much sports"
+    },
+    {
+      "habit": "Not liking sports"
+    },
+    {
+      "habit": "Overthinking everything"
+    },
+    {
+      "habit": "Never thinking things through"
+    },
+    {
+      "habit": "Being too romantic"
+    },
+    {
+      "habit": "Not being romantic enough"
+    },
+    {
+      "habit": "Existing"
     }
   ],
-  "notes": "This data is compiled from publicly available research, surveys, and online discussions. Individual experiences vary, and not all men exhibit these behaviors, nor are they exclusive to men.",
+  "notes": "This is satirical content highlighting contradictory expectations. Not meant to be taken seriously.",
   "lastUpdated": "2026-02-07"
 }

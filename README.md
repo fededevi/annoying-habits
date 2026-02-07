@@ -1,6 +1,6 @@
-# Common Annoying Habits
+# Absurd Annoying Habits
 
-A research-based collection of behaviors that many women find frustrating in their interactions with men, presented with references to studies, surveys, and academic literature.
+A humorous, satirical collection of contradictory and impossible standards. Because apparently, everything is annoying! 😂
 
 ## 🌐 Live Demo
 
@@ -8,32 +8,34 @@ Visit the live site: **https://fededevi.github.io/annoying-habits/**
 
 ## 📊 About
 
-This project compiles commonly cited annoying habits based on:
-- Academic research in relationship psychology
-- Survey data from dating platforms
-- Sociological studies on gender dynamics
-- Popular relationship advice literature
-- Online community discussions
+This is a **satirical project** that highlights the absurdity of contradictory expectations by listing opposing things as equally "annoying":
+- Driving too fast vs. driving too slow
+- Being too tall vs. being too short  
+- Having an expensive car vs. having a cheap car
+- Being too ambitious vs. having no ambition
+- And many more impossible-to-satisfy pairs!
+
+**This is humor. Not meant to be taken seriously.** 😄
 
 ## 🚀 Features
 
-- **Interactive Web UI**: Browse all habits with a clean, modern interface
-- **Search Functionality**: Filter habits by keywords
-- **Referenced Data**: Each habit includes citations to research or sources
-- **Responsive Design**: Works on desktop and mobile devices
+- **Interactive Web UI**: Browse all absurd habits
+- **Search Functionality**: Filter by keywords
+- **Responsive Design**: Works on desktop and mobile
+- **Clean & Simple**: Just the funny contradictions, no fluff
 
 ## 📁 Project Structure
 
 ```
 annoying-habits/
 ├── index.html      # Web UI
-├── data.json       # Structured data with habits and references
+├── data.json       # List of absurd habits
 └── README.md       # This file
 ```
 
 ## 🛠️ Local Development
 
-Simply open `index.html` in your browser, or serve it with any static file server:
+Simply open `index.html` in your browser, or serve with:
 
 ```bash
 # Using Python
@@ -45,16 +47,14 @@ npx serve
 
 ## 📝 Data Format
 
-The data is stored in `data.json` with the following structure:
+Simple JSON structure:
 
 ```json
 {
-  "title": "Common Annoying Habits Women Notice in Men",
+  "title": "Absurd Things Women Find Annoying",
   "items": [
     {
-      "habit": "Habit name",
-      "description": "Detailed description",
-      "reference": "Source or reference"
+      "habit": "Short, funny habit"
     }
   ]
 }
@@ -62,35 +62,18 @@ The data is stored in `data.json` with the following structure:
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to add more habits or update references:
-
-1. Fork the repository
-2. Update `data.json` with properly referenced information
-3. Submit a pull request
-
-Please ensure all additions include credible references to research, studies, or documented sources.
+Got more absurd contradictions? PRs welcome! Keep them:
+- Short (1-5 words)
+- Funny
+- Contradictory to something already in the list (bonus points!)
 
 ## ⚠️ Disclaimer
 
-This data is compiled from publicly available research, surveys, and online discussions. Individual experiences vary greatly, and:
-
-- Not all men exhibit these behaviors
-- These behaviors are not exclusive to men
-- This is meant for educational and awareness purposes
-- Healthy relationships require communication and mutual respect
+**THIS IS SATIRE.** The whole point is to show how ridiculous contradictory expectations are. It's all in good fun!
 
 ## 📜 License
 
-MIT License - feel free to use and modify for your own purposes.
-
-## 🔗 Sources
-
-Key references include:
-- Psychology Today articles on relationship dynamics
-- Pew Research Center studies
-- John Gottman's relationship research
-- Deborah Tannen's work on communication
-- Various academic journals and relationship studies
+MIT License - feel free to use and modify.
 
 ---
 

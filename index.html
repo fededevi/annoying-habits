@@ -196,12 +196,12 @@
 <body>
     <div class="container">
         <header>
-            <h1>🔍 Common Annoying Habits</h1>
-            <p class="subtitle">Things Women Often Find Frustrating in Men</p>
+            <h1>😂 Absurd Annoying Habits</h1>
+            <p class="subtitle">Contradictory & Impossible Standards (Satire)</p>
         </header>
 
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search habits... (e.g., 'communication', 'hygiene', 'listening')">
+            <input type="text" id="searchInput" placeholder="Search habits... (e.g., 'car', 'beard', 'tall')">
         </div>
 
         <div class="content">
@@ -220,8 +220,8 @@
         </div>
 
         <footer>
-            <p><strong>Note:</strong> This data is compiled from publicly available research, surveys, and online discussions.</p>
-            <p class="note">Individual experiences vary, and not all men exhibit these behaviors.</p>
+            <p><strong>⚠️ SATIRE:</strong> This is humorous content highlighting contradictory and impossible standards.</p>
+            <p class="note">Not meant to be taken seriously. Just for laughs! 😄</p>
             <p class="note">Last updated: <span id="lastUpdated"></span></p>
         </footer>
     </div>
@@ -263,12 +263,6 @@
                         <span class="habit-number">${index + 1}</span>
                         ${habit.habit}
                     </div>
-                    <div class="habit-description">
-                        ${habit.description}
-                    </div>
-                    <div class="habit-reference">
-                        <strong>Reference:</strong> ${habit.reference}
-                    </div>
                 </div>
             `).join('');
         }
@@ -282,9 +276,7 @@
             const searchTerm = e.target.value.toLowerCase();
             
             const filtered = allHabits.filter(habit => 
-                habit.habit.toLowerCase().includes(searchTerm) ||
-                habit.description.toLowerCase().includes(searchTerm) ||
-                habit.reference.toLowerCase().includes(searchTerm)
+                habit.habit.toLowerCase().includes(searchTerm)
             );
 
             displayHabits(filtered);
