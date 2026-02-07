@@ -4,7 +4,7 @@ A research-based collection of behaviors that many women find frustrating in the
 
 ## 🌐 Live Demo
 
-Visit the live site: [GitHub Pages URL will be available after publishing]
+Visit the live site: **https://fededevi.github.io/annoying-habits/**
 
 ## 📊 About
 
