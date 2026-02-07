@@ -196,8 +196,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>Annoying Habits Study</h1>
-            <p class="subtitle">Documented Behaviors Women Find Annoying in Men</p>
+            <h1>Male Behavioral Patterns Study</h1>
+            <p class="subtitle">A Comprehensive Analysis of Annoying Characteristics in Men</p>
         </header>
 
         <div class="search-container">
@@ -234,6 +234,10 @@
                 const response = await fetch('data.json');
                 habitsData = await response.json();
                 allHabits = habitsData.items;
+                
+                // Randomize the order
+                allHabits = shuffleArray(allHabits);
+                
                 displayHabits(allHabits);
                 updateStats(allHabits.length, allHabits.length);
                 document.getElementById('lastUpdated').textContent = habitsData.lastUpdated;
@@ -241,6 +245,15 @@
                 console.error('Error loading data:', error);
                 document.getElementById('habitsList').innerHTML = '<div class="no-results"><h2>Error loading data</h2></div>';
             }
+        }
+
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
         }
 
         function displayHabits(habits) {
